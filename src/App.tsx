@@ -34,7 +34,7 @@ export const App: React.FC = () => {
   const [todos, setTodos] = useState<Todo[] | []>([]);
   const [filteredTodos, setFilteredTodos] = useState<Todo[] | []>([]);
   const [searchValue, setSearchValue] = useState('');
-  const [selectValue, setSelectValue] = useState('');
+  const [selectValue, setSelectValue] = useState('all');
   const [isLoading, setIsLoading] = useState(true);
   const [selectedTodo, setSelectedTodo] = useState<Todo | null>(null);
 
